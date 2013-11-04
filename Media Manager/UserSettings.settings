@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Media_Manager" GeneratedClassName="UserSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MoviesTest" Type="System.String" Scope="User">
+      <Value Profile="(Default)">I:\Media\Videos\Movies</Value>
+    </Setting>
+    <Setting Name="TvShowsTest" Type="System.String" Scope="User">
+      <Value Profile="(Default)">I:\Media\Videos\TV Shows</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -23,7 +23,19 @@ namespace Media_Manager
         public MainWindow()
         {
             InitializeComponent();
-            Movies.ItemsSource = new UserFilesTableAdapters.MediaTableAdapter().GetData();
+            Movies.ItemsSource = new UserFilesTableAdapters.MoviesTableAdapter().GetData();
+        }
+
+        private void ExitItem_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SettingsItem_Click(object sender, RoutedEventArgs e)
+        {
+            SettingsWindow settings = new SettingsWindow();
+            settings.Owner = this;
+            settings.ShowDialog();
         }
     }
 }

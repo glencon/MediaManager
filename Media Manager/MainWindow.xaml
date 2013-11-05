@@ -13,10 +13,10 @@
         </Grid.RowDefinitions>
         <Menu Height="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Row="0">
             <MenuItem Header="File">
-                <MenuItem Header="Exit"/>
+                <MenuItem Header="Exit" Click="ExitItem_Click"/>
             </MenuItem>
             <MenuItem Header="Edit">
-                <MenuItem Header="Settings"/>
+                <MenuItem Header="Settings" Click="SettingsItem_Click"/>
             </MenuItem>
             <MenuItem Header="Tools">
                 <MenuItem Header="Clean Files"/>
